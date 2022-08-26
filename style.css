@@ -1,0 +1,36 @@
+
+body{
+    display: flex;
+    gap:50px;
+}
+
+button{
+    width:15vw;
+    height:15vh;
+}
+
+.etch-a-sketch{
+    display: flex;
+    width: 600px;
+    height: 600px;
+    background-color: white;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+}
+
+.whiteSquare{
+    display: flex;
+    flex: 1 1 100%;
+    border: 1px solid black;
+}
+
+.colouredSquare{
+    display: flex;
+    flex: 1 1 100%;
+    background-color: black;
+    border: 1px solid black;
+}
